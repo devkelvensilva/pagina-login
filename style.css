@@ -3,6 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
-    background-image: linear-gradient(45deg, blue, yellow);
+body{
+    height: 100vh;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+}
+.login{
+    background-color: rgb(124, 134, 143);
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    gap: 10px;
+    width: 400px;
+    border-radius: 8px;
+}
+input{
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+button{
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
 }
